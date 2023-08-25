@@ -1,0 +1,266 @@
+#box{
+    position:fixed;
+    border:0px solid black;
+    width:1272px;
+    height:70px;
+    text-align:right;
+    display:inline-block;
+    background-color:lightcyan;
+    margin-top:0px;
+    color:grey;
+    text-decoration:none;
+}
+#box1{
+    position:fixed;
+    border:0px solid black;
+    width:1272px;
+    height:70px;
+    text-align:right;
+    display:inline-block;
+    background-color:lightcyan;
+    margin-top:-8px;
+    color:grey;
+    text-decoration:none;
+}
+body{
+    background-color:white;
+    
+}
+#one{
+    background-image:url("bg.jpg");
+    background-size: cover;
+    height: 500px;
+    margin-top: -70px;
+}
+.content{
+    padding: 100px;
+}
+#two{
+    border:2px solid black;
+    width:700px;
+    height:300px;
+    display:inline-block;
+    text-align: center;
+    margin-left: 300px;
+    margin-top: 30px;
+    font-size: 30px;
+}
+h2{
+    font-size: 50px;
+    text-align:center;
+}
+label{
+    width:300px;
+    display:inline-block;
+}
+button{
+    font-size: 30px;
+    
+}
+.fa-user{
+    color:grey;
+    font-size:20px;
+}
+.fa-right-to-bracket{
+    color:grey;
+    font-size:20px;
+}
+img{
+    float:left;
+    height:70px;
+    width:200px;
+}
+p{
+    text-align:center;
+    font-size: 30px;
+    font-style:normal;
+    color:white;
+    margin-top:150px;
+}
+#three{
+    text-align:center;
+}
+#four{
+    font-size: 50px;
+    text-align:center;
+}
+.city{
+    height:200px;
+    width:200px;
+    padding:20px;
+}
+.city1{
+    margin-left:170px ;
+}
+.search{
+    width:400px;
+    height:20px;
+}
+.fa-magnifying-glass{
+    background-color:rgba(117, 136, 151, 0.993);
+    height:20px;
+    width:20px;
+}
+.rate{
+    color:red;
+}
+.roomstar{
+    color:red;
+}
+.fa-heart{
+    color:red;
+    font-size: 20px;
+}
+
+.carousel-inner .item img{
+    width:1300px;
+    max-height:400px;
+}
+.star{
+    color:red;
+    margin-left:300px;
+}
+.text{
+    margin-left:300px;
+    margin-top:-10px;
+}
+.text img{
+    width:30px;
+    height:30px;
+}
+.room{
+    
+    background-color:white;
+    border-width:50%;
+    box-shadow: 2px  red;
+    gap:20px;
+}
+
+.room1{
+    
+    background-color:white;
+    border-width:50%;
+    box-shadow: 2px  red;
+    height:300px;
+    gap:20px;
+}
+footer ol{
+    display:flex;
+    gap:170px;
+    list-style-type:none;
+    justify-content:space-between;
+}
+.page-container ol{
+    display:flex;
+    gap:200px;
+    list-style-type:none;
+    margin-left:200px;
+   
+}
+.aminities ol{
+    display:inline;
+    list-style-type:none;
+    margin-left:100px;
+}
+.col-md-auto{
+    margin-left:80px;
+    display:flex;
+}
+.rating fa-star{
+    color:aqua;
+}
+.rating-circle{
+    border:1px solid #56c4f0;
+    border-radius:50%;
+    width:140px;
+    background-color:#56c4f0;
+    color:white;
+
+}
+
+.signin-container {
+    position: relative;
+  }
+  
+  .signin-form {
+    display: none;
+    position: absolute;
+    margin-top:100px;
+    margin-left:-800px;
+    font-weight: bold;
+    top: 100%;
+    left: 0;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 0px solid rgb(201, 136, 147);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align:center;
+    border-radius:10px;
+    background-color:lightyellow;
+    z-index: 2;
+  }
+  
+  .signin-button:hover + .signin-form,
+  .signin-form:hover {
+    display: block;
+  }
+
+  button:hover{
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transform: translateY(-5px);
+  }
+
+  
+
+
+
+
+  .image-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .tooltip {
+    position: absolute;
+    top: 100%;
+    left: 10%;
+    border:1px solid black;
+    display:flexbox;
+    gap:0px;
+    font-size: 14px;
+    visibility: hidden;
+  }
+  
+  .image-container:hover .tooltip {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  .signin-container {
+    position: relative;
+  }
+  
+  .book {
+    display:none;
+    position: absolute;
+    margin-top:80px;
+    margin-left:20px;
+    font-weight: bold;
+    top: 100%;
+    left: 0;
+    width:700px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 0px solid rgb(201, 136, 147);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align:center;
+    border-radius:10px;
+    background-color:lightyellow;
+    position:sticky;
+    z-index: 2;
+  }
+  
+  .book-button:hover + .book,
+  .book:hover {
+    display: block;
+  }

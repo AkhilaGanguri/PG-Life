@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PG LIFE</title>
+    <link rel="stylesheet" href="project/css/index.css">
+    <script src="https://kit.fontawesome.com/8a2a16a03a.js" crossorigin="anonymous"></script>
+
+    <script>
+        function toggleSignInForm() {
+        var form = document.getElementById('signin-form');
+        form.style.display = (form.style.display === 'block') ? 'none' : 'block';
+        }
+        function toggleSignForm() {
+        var form = document.getElementById('sign-form');
+        form.style.display = (form.style.display === 'block') ? 'none' : 'block';
+        }
+    </script>
+
+</head>
+<body>
+    <div id="box1">
+        <img src="logo.png">
+        <div>
+            
+            <ol style="display:flex;list-style-type:none;margin-left:1100px">
+                <li>
+    <i class="fa-solid fa-user" style="margin-right:10px;display:flex"></i>
+    <div class="signin-container">
+        <div class="signin-button" onclick="toggleSignInForm()" style="color:black;font-weight: bold;text-decoration:none;margin-right:10px;display:inline">sign in</div>
+        
+        <form id="signin-form" class="signin-form" action="connection.php" method="POST">
+            <h1 style="color:black">Sign in</h1>
+            <label>FirstName</label>
+            <input type="text" name="first_name">
+            <br>
+            <label>LastName</label>
+            <input type="text" name="last_name">
+            <br>
+            <label>Email</label>
+            <input type="text" placeholder="xyz@gmail.com" required>
+            <br>
+            <label>Password</label>
+            <input type="password" name="password" required>
+            <br>
+            <label for="confirm_password">Re Enter Password</label>
+            <input type="password" id="confirm_password" required>
+            <br><br>
+            <button name="submit" name="submit" style="border-radius:10px;font-size: medium;" class="btn btn-outline-info">Submit</button>
+        </form>
+    </div>
+        </li>
+        <li>
+    <i class="fa-solid fa-right-to-bracket" style="margin-right:10px;display:flex"></i>
+    <div class="signin-container">
+        <div class="signin-button" onclick="toggleSignForm()" style="color:black;font-weight: bold;text-decoration:none;margin-right:10px;display:inline">login</div>
+        <form id="sign-form" class="signin-form">
+            <h1 style="color:black">Login</h1>
+            <label>User Name</label>
+            <input type="password" name="username">
+            <br>
+            <label>Password</label>
+            <input type="password" required>
+            <br><br>
+            <button name="submit" name="submit" style="border-radius:10px;font-size: medium;">Submit</button>
+        </form>
+    </div>
+    </li>
+    </ol>
+    </div>
+    </div>
+    <br>
+
+    <div id="one">
+        <div class="content"><p><b>Happiness per Square Foot</b></p><br>
+        <form id="three">
+            <input type="text" class="search" placeholder="Enter Your City to Search For PGs" style="border-radius:10px;border:0px">
+            <i class="fa-sharp fa-solid fa-magnifying-glass" style="border-radius:5px;margin-left:-4px;background-color:skyblue"></i>
+        </form>
+    </div>
+    </div><br>
+    <div id="four">
+        <h5>Major Cities</h5>
+        <div class="city1">
+        <a href="delhi.html"><img src="delhi.png"  class="city"></a>
+        <a href="chennai.html"><img src="chennai.png"  class="city"></a>
+        <a href="banglore.html"><img src="bangalore.png" class="city"></a>
+        <a href="hyderabad.html"><img src="hyderabad.png"  class="city"></a>
+        </div>
+    </div>
+</body>
+</html>
